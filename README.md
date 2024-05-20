@@ -71,6 +71,6 @@ If you are familiar with GitHub, you should clone or fork this GitHub repository
 git clone https://github.com/sjsrey/workshop-pysal-sew24.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (<https://github.com/sjsrey/workshop-pysal-sew24.git>) and clicking on the green _Clone or download_ button in the upper right. Extract the downloaded zip file to a working directory.
+If you are not using git, you can grab the workshop materials as a [zip file](https://github.com/sjsrey/workshop-pysal-sew24/archive/refs/heads/main.zip). Extract the downloaded zip file to a working directory.
 
 See the [installation instructions](docs/installation.md) for more information on getting a python environment setup
