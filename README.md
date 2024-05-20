@@ -11,7 +11,7 @@
 
 ### Instructor
 
-* Serge Rey - San Diego State University
+* [Serge Rey](https://sergerey.org/) - [Center for Open Geographic Science](http://cogs.sdsu.edu), [San Diego State University](http://geography.sdsu.edu/people/bios/rey)
 
 ---
 
