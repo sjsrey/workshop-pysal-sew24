@@ -2,46 +2,30 @@
 
 We will be using a number of Python packages for geospatial analysis.
 
-An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). In this workshop we will use anaconda to build an [environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) for **Python**. It does not matter which version of anaconda is downloaded as long as it is greater than 3.5. 
+We recommend using the [conda](https://conda.io/en/latest) package manager, which can be obtained by
+installing the [Anaconda Distribution](https://www.anaconda.com/download-old) (a free Python distribution for data
+science), or through [miniconda](docs.anaconda.com/free/miniconda) (a minimal distribution containing only
+Python and the conda package manager). 
 
-![anaconda](figs/anaconda.png)
 
-On windows, all our work will begin from an anaconda prompt, which you can start as follows:
+Once you have conda installed, you can create the environment for the workshop
+using the following command issued from the top level of the repository you
+cloned or the download archive:
 
-![anacondaprompt](figs/anacondastartwin.png)
-
-Start a terminal and navigate to the directory of the downloaded/ cloned materials. For example, if the materials now live in the directory `/Users/knaaptime/Downloads/workshop-pysal` , you need to navigate to that directory from the terminal (using command `cd` ):
-
-![directory](figs/directory.png)
-
-Once we have done that, run:
-
-``` bash
-conda-env create -f environment.yml
+```
+conda env create -f environment.yml
 ```
 
-This will build a conda python environment that sandboxes the installation of the required packages for this workshop so we don't break anything in your computer's system Python (if it has one).
+Once this is built,  you can activate the environment with:
 
-This may take 10-15 minutes to complete depending on the speed of your network connection.
-
-Once this completes, you can activate the workshop environment with:
-
-``` bash
+```
 conda activate workshop-pysal
 ```
 
-You're now all setup for the tutorial!
+You can start jupyter lab with:
 
-## Troubleshooting
-
-If you encounter the following error when starting jupyterlab:
-
-``` bash
-FileNotFoundError: [WinError 2] The system cannot find the file specified
 ```
-
-A solution is to issue the following command in the anaconda prompt:
-
-``` bash
- python -m ipykernel install --user
+jupyter lab
 ```
+and from there, you can open the notebooks for the workshop.
+
