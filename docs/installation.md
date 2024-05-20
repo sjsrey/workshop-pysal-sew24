@@ -4,7 +4,7 @@ We will be using a number of Python packages for geospatial analysis.
 
 We recommend using the [conda](https://conda.io/en/latest) package manager, which can be obtained by
 installing the [Anaconda Distribution](https://www.anaconda.com/download-old) (a free Python distribution for data
-science), or through [miniconda](docs.anaconda.com/free/miniconda) (a minimal distribution containing only
+science), or through [miniconda](https://docs.conda.io/en/latest/miniconda.html) (a minimal distribution containing only
 Python and the conda package manager). 
 
 
